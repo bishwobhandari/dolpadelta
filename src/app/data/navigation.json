@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "link": "/about",
+        "linkText": "About"
+    },
+    {
+        "id": 2,
+        "link": "/services",
+        "linkText": "Services"
+    },
+    {
+        "id": 2,
+        "link": "/contact",
+        "linkText": "Contact"
+    }
+]

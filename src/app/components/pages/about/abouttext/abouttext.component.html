@@ -1,0 +1,27 @@
+<section class="about-section about-illustration-img section-gap">
+    <div class="container">
+        <div class="illustration-img">
+            <img src="assets/img/about/aboutUs.jpg" alt="img">
+        </div>
+        <div class="row no-gutters justify-content-lg-end justify-content-center">
+            <div class="col-lg-6 col-md-10">
+                <div class="about-text">
+                    <div class="section-title left-border mb-40">
+                        <span class="title-tag">About Us</span>
+                        <h2 class="title">Professional Business <br> Guidance Agency </h2>
+                    </div>
+                    <p class="mb-25">
+                        We offer comprehensive advisory services designed to drive your business growth, optimize operational efficiency, and navigate the complexities of market trends. Leveraging our expertise in strategic planning, market research, financial analysis, and risk management, we are committed to transforming your business vision into a profitable reality. Join us, and let's shape the future of your business together.
+                    </p>
+                    <p>
+                        Doloremque laudantium, totam raperiaeaque ipsa quae ab illo inventore veritatis et quasi
+                    </p>
+                    <ul class="about-list">
+                        <li *ngFor="let item of list"> <i class="far fa-check"></i> {{item.text}}</li>
+                    </ul>
+                    <a routerLink="/about" class="main-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
